@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="backgroundContainer"></div>
+    <div class="contentContainer">
+      <div class="layer"></div>
+      <div class="infoContainer">
+        <h1 class="clock"></h1>
+        <h1 class="name">What is your name?</h1>
+        <form class="nameForm basicForm">
+          <input class="nameInput" type="text" placeholder="Write your name">
+        </form>
+        <form class="todoForm basicForm inactiveForm">
+          <input class="todoInput" type="text" placeholder="What do you want to do?">
+        </form>
+      </div>
+      <div class="listContainer">
+        <div class="weatherContainer"></div>
+        <div class="todoContainer">
+          <div class="undoContainer">
+            <h1 class="undoTitle">Challenge yourself</h1>
+            <ul class="undoList basicList">
+            </ul>
+          </div>
+          <div class="doneContainer">
+            <h1 class="doneTitle">Well Done</h1>
+            <ul class="doneList basicList">
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./js/background.js"></script>
+  <script src="./js/clock.js"></script>
+  <script src="./js/info.js"></script>
+  <script src="./js/todo.js"></script>
+</body>
+
+</html>
