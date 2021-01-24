@@ -129,12 +129,19 @@ html, body {
 
 .weatherContainer {
   flex: 1;
-  background-color: peru;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid white;
+}
+
+.weather {
+  color: white;
 }
 
 .todoContainer {
   flex: 3;
-  border: 1px solid white;
+  border-left: 1px solid white;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -162,12 +169,45 @@ html, body {
   list-style: none;
   overflow-y: auto;
   color: white;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .basicList > li {
-  padding: 5px 0;
+  padding: 10px 30px;
+  width: 80%;
   font-size: 1.5rem;
   display: flex;
   justify-content: space-around;
+  align-self: center;
+}
+
+.basicList > li > span {
+  width: 60%;
+  overflow: hidden;
+  text-align: center;
+  transition: ease-in-out 1s;
+}
+
+.basicList > li > span:hover {
+  background-color: white;
+  color: black;
+  padding: 20px 0;
+  border-radius: 20px;
+}
+
+.basicList > li > button {
+  width: 15%;
+  background: none;
+  border: 1px solid white;
+  border-radius: 20px;
+  color: white;
+  transition: ease-in-out 1s;
+}
+
+.basicList > li > button:hover {
+  background-color: white;
+  color: black;
+  padding: 20px 0;
+  outline: none;
 }
