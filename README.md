@@ -2,10 +2,7 @@
 
 ## Result
 
-- Full Screen
 <img src="./src/images/Image_README1.png" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
-
-- TodoList
 <img src="./src/images/Image_README2.png" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
 <img src="./src/images/Image_README3.png" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
 
